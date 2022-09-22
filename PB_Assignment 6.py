@@ -57,51 +57,22 @@ Multiline strings allow you to use newlines in strings.
 # 'Hello, world!'[:5]
 # 'Hello, world'[3:]
 
-# In[1]:
-
-
-'Hello, world!'[1]
-
-
-# In[2]:
-
-
-'Hello, world!'[0:5]
-
-
-# In[3]:
-
-
-'Hello, world!'[:5]
-
-
-# In[4]:
-
-
-'Hello, world'[3:]
-
+Answer 6:
+'e'
+'Hello'
+'Hello'
+'lo, world'
 
 # # Que 7: What are the values of the following expressions?
 # 'Hello'.upper()
 # 'Hello'.upper().isupper()
 # 'Hello'.upper().lower()
 
-# In[5]:
-
-
-'Hello'.upper()
-
-
-# In[6]:
-
-
-'Hello'.upper().isupper()
-
-
-# In[7]:
-
-
-'Hello'.upper().lower()
+Answer 7:
+The expressions evaluate to the following:
+'HELLO'
+True
+'hello' 
 
 
 # # Que 8:What are the values of the following expressions?
@@ -109,15 +80,12 @@ Multiline strings allow you to use newlines in strings.
 # '-'.join('There can only one.'.split()) 
 
 # In[8]:
+Answer 8:
+The expressions evaluate to the following:
 
+['Remember,', 'remember,', 'the', 'fifth', 'of', 'November.']
 
-'Remember, remember, the fifth of July.'.split()
-
-
-# In[9]:
-
-
-'-'.join('There can only one.'.split())
+'There-can-be-only-one.
 
 
 # # Que 9: What are the methods for right-justifying, left-justifying, and centering a string?
